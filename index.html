@@ -10,18 +10,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header-index">
+        <div class="navButton-container">
+            <div class="navButton-open">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
         <div class="logo-box">
             <a href=""><img src="./sources/logo-text.png" alt="" class="logo-header"></a>
         </div>
-        <nav class="navBar-header-mobile">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
         <nav class="navBar-header-desktop">
             <ul>
                 <li><a href="">Home</a></li>
@@ -31,15 +30,123 @@
             </ul>
         </nav>
         <div class="session-buttons">
-            <button><a href="">Sign Up</a></button>
-            <button><a href="">Login</a></button>
+            <button>Sign Up</button>
+            <button>Login</button>
         </div>
     </header>
-    <main>
-
+    <nav class="navBar-header-mobile">
+        <div class="navBar-mobile">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Sign Up</a></li>
+                <li><a href="">Login</a></li>
+            </ul>
+            <div class="navButton-close">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+            </div>
+        </div>
+    </nav>
+    <main class="main-index">
+        <div class="safe-container">
+            <div class="safe-container-text">
+                <div class="safe-box-text">
+                    <h1>100% SAFE</h1>
+                    <p>Whatever you want, from any brand from the <span class="red-subtitle-index">USA</span>, straight to your door in less than <span class="red-subtitle-index">7 days</span>. Buy all kinds of products from your home.</p>
+                </div>
+            </div>
+            <div class="img-container">
+                <a class="img-box" href=""><img class="img-nintendo" src="./sources/nintendo.png" alt=""></a>
+            </div>
+        </div>
+        <section class="tracking">
+            <article class="tracking-container">
+                <div class="tracking-box-text">
+                    <div class="text-tracking-container">
+                        <h2>TRACKING</h2>
+                        <p>Once the purchase is made, we will give you a <span class="red-subtitle-index">tracking code</span> with which you can follow all your products <span class="red-subtitle-index">without worries</span>, and from the comfort of your <span class="red-subtitle-index">home</span>.</p>
+                    </div>
+                    <div class="tracking-form-container">
+                        <form class="tracking-form" action="" method="POST">
+                            <input class="tracking-code-input" type="text" placeholder="Tracking Code">
+                            <button class="tracking-code-button" type="submit">Find</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="tracking-img">
+                    <a href=""><img src="/sources/products/apple-watch.png" alt=""></a>
+                </div>
+            </article>
+        </section>
+        <section class="product">
+            <article class="product-container">
+                <h2 class="mobile-title-product">AirPods Max</h2>
+                <div class="product-background">
+                    <a href=""><img src="./sources/products/AirPods-Max.png" alt=""></a>
+                </div>
+                <div class="product-data-container">
+                    <div class="product-data-box">
+                        <div class="data-box">
+                            <h2 class="desktop-title-product">AirPods Max</h2>
+                            <div class="price-box">
+                                <p>$0000</p>
+                                <p>$0000</p>
+                                <div class="sale-offer-box">
+                                    <p class="sale-offer">SALE</p>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="data-selector-box" action="">
+                            <div>
+                                <label for="color">Color</label>
+                                <select name="" id="color">
+                                    
+                                </select>
+                            </div>
+                            <div>
+                                <label for="amount">Amount</label>
+                                <input type="number" id="amount">
+                            </div>
+                            <button type="submit">Añadir al carrito</button>
+                        </form>
+                    </div>
+                </div>
+            </article>
+        </section>
     </main>
     <footer>
-
+        <div class="menu-container">
+            <div class="menu-box">
+                <h3>Menu</h3>
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="social-media-container">
+            <div class="social-media-box">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/franco-cunha-duarte-24b839252/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="" target="_blank"><img src="" alt=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <p>©2022, Cargo Arg</p>
+        </div>
+        <div class="policy-container">
+            <div class="policy-box">
+                <p>Privacy Policy</p>
+                <p>Terms & Conditions</p>
+            </div>
+        </div>
     </footer>
+    <script src="./js/main.js"></script>
+    <script src="https://kit.fontawesome.com/80520dbe4a.js" crossorigin="anonymous"></script>
 </body>
 </html>
